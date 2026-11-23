@@ -9,6 +9,8 @@
 *.a
 *.so
 app/*/
+images/*
+!images/README.md
 !app/*.c
 !app/Makefile
 
