@@ -1,0 +1,18 @@
+# 编译产物
+*.o
+*.ko
+*.cmd
+*.mod
+*.mod.c
+*.order
+*.symvers
+*.a
+*.so
+app/*/
+!app/*.c
+!app/Makefile
+
+# 编辑器 / 系统
+.vscode/
+*.swp
+Thumbs.db
